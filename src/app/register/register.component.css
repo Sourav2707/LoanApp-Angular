@@ -1,0 +1,36 @@
+.body-txt-2 { 
+    padding: 20px;
+    margin-top: 30px;
+}
+.body-txt-2 h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 170px;
+}
+.body-txt-2 h2 {
+    color: grey;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 170px;
+}
+.formInputs {
+    display: flex;
+    margin-left: 170px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+    border: 1px solid green;
+  }
+.formInputs::placeholder {
+    color: green;
+}
+.formButton {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid green;
+    color: green;
+}

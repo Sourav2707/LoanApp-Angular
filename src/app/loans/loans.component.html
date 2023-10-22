@@ -1,0 +1,91 @@
+<!-- <div class="apply-loan">
+    <h1>Apply for loan</h1>
+    <form [formGroup]="loanform">
+        <div class="formGroup">
+            <label>First Name</label>
+            <input class="formInputs" type="name" formControlName="name" placeholder="First name as per pan card" />
+        </div>
+        <div class="formGroup">
+            <label>Last Name</label>
+            <input class="formInputs" type="name" formControlName="name" placeholder="Last name as per pan card" />
+        </div>
+        <div class="formGroup">
+            <label>Date of birth</label>
+            <input class="formInputs" type="date" formControlName="name" placeholder="First name as per pan card" />
+        </div>
+        <div class="formGroup">
+            <label>Gender</label>
+            <input class="formInputs" type="text" formControlName="name" placeholder="First name as per pan card" />
+        </div>
+        <div class="formGroup">
+            <label>Marital Status</label>
+            <input class="formInputs" type="name" formControlName="name" placeholder="First name as per pan card" />
+        </div>
+        <div class="formGroup">
+            <label>current Address</label>
+            <input class="formInputs" type="text" formControlName="name" placeholder="First name as per pan card" />
+        </div>
+        <div class="formGroup">
+            <label>Permenant Address</label>
+            <input class="formInputs" type="text" formControlName="name" placeholder="First name as per pan card" />
+        </div>
+        <div class="formGroup">
+            <label>Phone number</label>
+            <input class="formInputs" type="name" formControlName="name" placeholder="First name as per pan card" />
+        </div>
+        <div class="formGroup">
+            <h1>Attach last three months bank statement</h1>
+        </div>
+    </form>
+
+</div> -->
+
+<div class="loan">
+    <div class="loan-application">
+        <h2>Loan Application Form</h2>
+        <form [formGroup]="loanForm" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" formControlName="firstName">
+          </div>
+      
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" formControlName="lastName">
+          </div>
+    
+          <div class="form-group">
+            <label>Date of birth</label>
+            <input class="formInputs" type="date" formControlName="dob"  />
+        </div>
+        <div class="form-group">
+            <label>Gender</label>
+            <input class="formInputs" type="text" formControlName="gender"  />
+        </div>
+        <div class="form-group">
+            <label>Marital Status</label>
+            <input class="formInputs" type="text" formControlName="mar-status"  />
+        </div>
+        <div class="form-group">
+            <label>Current Address</label>
+            <input class="formInputs" type="text" formControlName="caddress"  />
+        </div>
+        <div class="form-group">
+            <label>Permenant Address</label>
+            <input class="formInputs" type="text" formControlName="paddress"  />
+        </div>
+        <div class="form-group">
+            <label>Phone number</label>
+            <input class="formInputs" type="number" formControlName="phNo"  />
+        </div>
+    
+          <div class="form-group">
+            <label for="bankStatement">Last Three Months Bank Statement</label>
+            <input type="file" id="bankStatement" formControlName="bankStatement">
+          </div>
+      
+          <button type="submit">Submit Application</button>
+        </form>
+      </div>
+</div>
+  

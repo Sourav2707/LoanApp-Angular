@@ -1,0 +1,14 @@
+<div class="reg-form">
+    <form [formGroup]="regForm" (ngSubmit)="onSubmit()">
+        <div class="body-txt-2">
+            <h1>Mann hai</h1>
+            <h1>toh money hai</h1>
+            <h2>Personal loans made just for you</h2>
+            <input class="formInputs" type="name" formControlName="name" placeholder="Full name as per PAN card" />
+            <input class="formInputs" type="phNo" formControlName="phNo" placeholder="Phone number" />
+            <input class="formInputs" type="email" formControlName="email" placeholder="Email" />
+            <input class="formInputs" type="password" formControlName="password" placeholder="Password" />
+            <button class="formButton" type="submit">Register</button>
+        </div>
+    </form>
+</div>

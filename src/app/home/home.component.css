@@ -1,0 +1,15 @@
+.main-body {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    background-image: url("https://moneyview.in/images/header_background_image.webp");
+}
+
+.reg-body .reg-form{
+    max-width: 1000px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.reg-body-cont {
+    align-self: flex-end;
+}
